@@ -43,7 +43,7 @@ void setup() {
     while (1);
   }
   SERIAL.println("acknowledged.");
-  therm.setUnit(TEMP_C); // Set the library's units to Farenheit
+  therm.setUnit(TEMP_C); // Set the library's units to Celsius
   if (therm.readID()) {
     // Read from the ID registers
     // If the read succeeded, print the ID:
